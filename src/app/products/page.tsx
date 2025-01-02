@@ -1,5 +1,14 @@
+import Link from "next/link";
+
 export default function Products() {
     return (
-        <div>Product page</div>
+        <div>
+            <div>Product page</div>
+            <ul>
+                <li>
+                    <Link href="/products/games" className="underline">Games</Link>
+                </li>
+            </ul>
+        </div>
     );
 }
