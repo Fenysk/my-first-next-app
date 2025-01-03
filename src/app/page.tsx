@@ -1,9 +1,10 @@
+import { currentUser } from "@/data/connected-user.data";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      Hello world !
+      Hello {currentUser ? (<>{currentUser.pseudo}</>) : (<>world</>)} !
       <ul>
         <li>
           <Link href="/products" className="underline">Go to Products</Link>

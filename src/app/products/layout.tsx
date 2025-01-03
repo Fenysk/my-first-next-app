@@ -1,5 +1,3 @@
-
-import HeaderUser from "@/components/Header/User/HeaderUser";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Link from "next/link";
 
@@ -10,8 +8,6 @@ export default function ProductsLayout({
 }>) {
     return (
         <div>
-            <HeaderUser />
-
             <div className="flex flex-row mt-8">
                 <Sidebar />
 
