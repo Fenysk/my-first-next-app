@@ -1,3 +1,4 @@
+import HeaderMenu from "@/components/Header/Menu";
 import Link from "next/link";
 
 export default function ProductsLayout({
@@ -7,7 +8,7 @@ export default function ProductsLayout({
 }>) {
     return (
         <div>
-            <header className="flex justify-center py-4">Products header</header>
+            <HeaderMenu />
 
             {children}
 
