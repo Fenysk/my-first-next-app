@@ -1,4 +1,6 @@
-import HeaderMenu from "@/components/Header/Menu/HeaderMenu";
+
+import HeaderUser from "@/components/Header/User/HeaderUser";
+import Sidebar from "@/components/Sidebar/Sidebar";
 import Link from "next/link";
 
 export default function ProductsLayout({
@@ -8,9 +10,16 @@ export default function ProductsLayout({
 }>) {
     return (
         <div>
-            <HeaderMenu />
+            <HeaderUser />
 
-            {children}
+            <div className="flex flex-row mt-8">
+                <Sidebar />
+
+                <div className="ml-8">
+                    {children}
+                </div>
+
+            </div>
 
             <div className="mt-4">
                 <Link href="/" className="underline">Back to Home</Link>

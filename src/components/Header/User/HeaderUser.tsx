@@ -1,9 +1,10 @@
-export default function HeaderMenu() {
+export default function HeaderUser() {
     const menuItems = [
-        { id: 1, label: 'Accueil', href: '/' },
-        { id: 2, label: 'Produits', href: '/products' },
-        { id: 3, label: 'À propos', href: '/about' },
-        { id: 4, label: 'Contact', href: '/contact' }
+        { id: 1, label: 'Profile', href: '/profile' },
+        { id: 2, label: 'Settings', href: '/settings' },
+        { id: 3, label: 'Orders', href: '/orders' },
+        { id: 4, label: 'Wishlist', href: '/wishlist' },
+        { id: 5, label: 'Logout', href: '/logout' }
     ];
 
     return (
