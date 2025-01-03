@@ -1,4 +1,4 @@
-import HeaderMenu from "@/components/Header/Menu";
+import HeaderMenu from "@/components/Header/Menu/HeaderMenu";
 import Link from "next/link";
 
 export default function ProductsLayout({
